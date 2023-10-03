@@ -1,0 +1,29 @@
+
+/* css code the shadcn ui navbar css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav a.active {
+    color: #000;
+  }
+  
+  @media (max-width: 576px) {
+    nav {
+      flex-direction: column;
+    }
+  }
+  
