@@ -27,3 +27,122 @@ nav {
     }
   }
   
+
+  /* shadcn ui login/signup page css */
+/* shadcn ui signup page css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .signup-card {
+    width: 30rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .signup-card h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .signup-card form {
+    width: 100%;
+  }
+  
+  .signup-card input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  .signup-card button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-card a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  .signup-card p {
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .signup-card {
+      width: 100%;
+    }
+  }
+  
+
+  
+
+  /* shadcn ui login page css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  form {
+    width: 30rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    form {
+      width: 100%;
+    }
+  }
+  
